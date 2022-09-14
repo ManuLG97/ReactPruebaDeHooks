@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Merriweather:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size:40px;
+}
+
+img {
+    height: 90%; width: 90%;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+  }
+
+.row > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+.row > p > a:hover{
+    color: white;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .row{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .row{
+    width: 100%;
+}
+}
