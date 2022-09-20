@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BsFacebook } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
-import { BsGithub} from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
-import { ImHome } from "react-icons/im";
-import { ImMail4 } from "react-icons/im";
 import './Home.css';
 
 

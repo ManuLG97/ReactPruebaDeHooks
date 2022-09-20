@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-
+import './Footer.css'
 export default function Footer() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -34,20 +34,6 @@ export default function Footer() {
               </h6>
               <p>
                 A continuación dejamos nuestros enlaces de contacto por linkedin y github!
-              </p>
-            </MDBCol>
-
-            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4' ><MDBIcon fas icon="external-link-square-alt" className="me-2"/>Rodolfo Garcia</h6>
-              <p>
-                <a href='https://github.com/RodolfoAGarciaN' className='text-reset'><MDBIcon fab icon="github" className="me-2"/>
-                  Github
-                </a>
-              </p>
-              <p>
-                <a href='https://www.linkedin.com/in/rodolfo-garcia-nunez/' className='text-reset'><MDBIcon fab icon="linkedin" className="me-2" />
-                  Linkedin
-                </a>
               </p>
             </MDBCol>
 

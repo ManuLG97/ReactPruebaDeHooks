@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+img {
+  height: 200px; width: 150px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

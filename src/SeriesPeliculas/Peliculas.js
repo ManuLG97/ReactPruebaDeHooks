@@ -3,8 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import karatekidfoto from '../img/thekaratekid.jpg';
 import rockybalboa from '../img/rockybalboa1.jpg';
 import elseñordelosanillos from '../img/elseñordelosanillos.jpg';
+import IndianaJones from '../img/IndianaJonesLostArk.jpg';
 import Footer from '../Footer/Footer.js';
 import './PeliculasSeries.css';
+import PeliculaVistaIndividual from './PeliculaVistaIndividual/PeliculaVistaIndividual'
 
 function Peliculas() {
       
@@ -16,41 +18,47 @@ function Peliculas() {
       });
     }
 
-  const GoToPeliculas = () => {
-      navigate('/Peliculas', {
-          replace: true
-        });  
+  
+
+    const GoToPeliculaVista = () => {
+        navigate('/PeliculaVistaIndividual', {
+            replace: true
+        });
       }
     
-return (   <div>
+return (   
+<div>
     
      <br/>
-     <div class="container">
+     <div class="container p-3 my-3 border">
   <div class="row">
-    <div class="col">
-    <img src={rockybalboa} alt="LogoRockyBalboa" />
-    </div>
+  <div class="col"> 
+
+    <img src={rockybalboa} class="imgportadapeli" alt="LogoRockyBalboa" onClick={GoToPeliculaVista}/>
+ 
+  </div>
+  
     <div class="col">    
-     <img src={karatekidfoto} alt="LogoKarateKid" />
+     <img src={karatekidfoto}  class="imgportadapeli"  alt="LogoKarateKid" />
          </div>
     <div class="col">
-    <img src={elseñordelosanillos} alt="Pelicula 1 del Señor de los anillos" />
+    <img src={elseñordelosanillos}  class="imgportadapeli"  alt="Pelicula 1 del Señor de los anillos" />
     </div>
   </div>
   <br/>
   <div class="row">
     <div class="col">
-      INDIANA JONES
+    <img src={IndianaJones}  class="imgportadapeli"  alt="Pelicula 1 del Señor de los anillos" />
     </div>
     <div class="col">
      SUPERSALIDOS
-         </div>
+    </div>
     <div class="col">
       NOCHE DE MIEDO
     </div>
-  </div>
-</div>
 
+</div>
+</div>
 </div>
   );
 }

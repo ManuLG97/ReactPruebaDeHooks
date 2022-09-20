@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import CobraKai from '../img/cobrakai.jpg';
 import './PeliculasSeries.css';
-import Footer from '../Footer/Footer.js';
 
 function Series() {
       
@@ -23,10 +23,10 @@ return (
     <div>
     
          <br/>    
-         <div class="container">
+         <div class="container p-3 my-3 border">
   <div class="row">
     <div class="col">
-      COBRA KAI
+    <img src={CobraKai} alt="Serie de cobra kai" />
     </div>
     <div class="col">
      EL JUEGO DEL CALAMAR

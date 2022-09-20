@@ -3,27 +3,33 @@
 body {
     font-family: 'Merriweather', serif;
     font-size:40px;
+ 
+}
+
+.imgportadapeli {
+  height: 400px; width: 250px;
+}
+
+.imgdelapelicula {
+  height: 400px; width: 425px;
 }
 
 img {
-    height: 90%; width: 90%;
-}
+    height: 400px; width: 250px;
+  }
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
 
-.footer{
-    position: relative;
-    flex-direction: column;
-	width: 100%;
-    height: auto;
-	background-color: #d5d7da;
-    color: black;
-    padding: 20px 10px;
-    bottom: 0;
+.bolder {
+    font-weight: bold;
 }
+
+
+
 
 .row > p > a{
     text-decoration: none;
