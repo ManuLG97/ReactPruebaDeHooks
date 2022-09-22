@@ -32,7 +32,7 @@ return (
     <div>
     
     <br/>
-    <div class="container p-3 my-3 border">
+    <div class="container p-3 my-3  border rounded bg-light">
   <div class="row">
   <div class="col"> 
 
@@ -41,7 +41,12 @@ return (
   </div>
 
     <div class="col"><span class="bolder">Pelicula:</span> Rocky Balboa (1976) <br/> <br/>
-    <span class="bolder">Plataforma:</span> Youtube,AppleTV <br/> <br/> <span class="bolder">Idiomas:</span> Esp,Eng,Esp(lat) <br/> <br/> <span class="bolder">Descripción: </span> Rocky es una película estadounidense de 1976 escrita y protagonizada por Sylvester Stallone 
+    <span class="bolder">Plataforma:</span> Youtube,AppleTV <br/> <br/> <span class="bolder">Idiomas:</span> Esp,Eng,Esp(lat) <br/> <br/>  <span class="bolder"> Categoria:</span> Deporte y Drama
+    </div>
+    <div class="row"> 
+    <div class="col">
+    <br/><br/>
+    <span class="bolder">Descripción: </span> Rocky es una película estadounidense de 1976 escrita y protagonizada por Sylvester Stallone 
     y dirigida por John G. Avildsen. La historia narra la búsqueda del sueño americano por parte de Rocky Balboa, un italoestadounidense de clase
      baja que se dedica a cobrar los créditos de un prestamista de Filadelfia. 
      Aunque tiene talento para el boxeo, le falta motivación, pero la encuentra
@@ -49,7 +54,9 @@ return (
        y por el amor de una mujer. El reparto de la película se completa con Talia
        Shire como Adriane Pennino, Burt Young como Paulie (el hermano de Adriane),
         Burgess Meredith como Mickey Goldmill (su entrenador) y Carl Weathers como
-        Apollo Creed, el campeón mundial y rival de Rocky. <br/> <br/> <span class="bolder"> Categoria:</span> Deporte y Drama
+        Apollo Creed, el campeón mundial y rival de Rocky. <br/> <br/>
+    </div>
+
     </div>
    </div>
    <br/>
@@ -102,6 +109,7 @@ return (
                 </div>
             </div>
         </Slider>
+        <br/>
    </div>
    </div>
   );

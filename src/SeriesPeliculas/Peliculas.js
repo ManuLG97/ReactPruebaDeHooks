@@ -6,7 +6,8 @@ import elseñordelosanillos from '../img/elseñordelosanillos.jpg';
 import IndianaJones from '../img/IndianaJonesLostArk.jpg';
 import Footer from '../Footer/Footer.js';
 import './PeliculasSeries.css';
-import PeliculaVistaIndividual from './PeliculaVistaIndividual/PeliculaVistaIndividual'
+import PeliculaVistaIndividual from './PeliculaVistaIndividual/PeliculaVistaIndividual';
+import CinderellaMan from '../img/CinderellaManElhombre.jpg';
 
 function Peliculas() {
       
@@ -27,34 +28,33 @@ function Peliculas() {
       }
     
 return (   
-<div>
-    
-     <br/>
-     <div class="container p-3 my-3 border">
+<div >
+     <div class="container border rounded bg-light p-4 my-5">
   <div class="row">
-  <div class="col"> 
+  <div class="col titulopelicula"> 
 
     <img src={rockybalboa} class="imgportadapeli" alt="LogoRockyBalboa" onClick={GoToPeliculaVista}/>
- 
+    <p>Rocky Balboa</p>
   </div>
   
-    <div class="col">    
+    <div class="col titulopelicula">    
      <img src={karatekidfoto}  class="imgportadapeli"  alt="LogoKarateKid" />
+     <p>Karate Kid</p>
          </div>
-    <div class="col">
+    <div class="col titulopelicula">
     <img src={elseñordelosanillos}  class="imgportadapeli"  alt="Pelicula 1 del Señor de los anillos" />
+    <p >El señor de los anillos</p>
     </div>
   </div>
   <br/>
   <div class="row">
-    <div class="col">
+    <div class="col titulopelicula">
     <img src={IndianaJones}  class="imgportadapeli"  alt="Pelicula 1 del Señor de los anillos" />
+    <p>Indiana Jones</p>
     </div>
-    <div class="col">
-     SUPERSALIDOS
-    </div>
-    <div class="col">
-      NOCHE DE MIEDO
+    <div class="col titulopelicula">
+    <img src={CinderellaMan}  class="imgportadapeli"  alt="Pelicula de Cinderella Mans" />
+    <p>Cinderella Man</p>
     </div>
 
 </div>

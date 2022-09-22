@@ -3,6 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import './Footer.css'
 export default function Footer() {
   return (
+    <div className="main">
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
@@ -14,9 +15,6 @@ export default function Footer() {
           </a>
           <a href='https://twitter.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
-          </a>
-          <a href='https://gmail.com/' className='me-4 text-reset'>
-            <MDBIcon fab icon="google" />
           </a>
           <a href='https://instagram.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
@@ -73,5 +71,6 @@ export default function Footer() {
         © 2022 Copyright [Proyecto: TheMovieBat-Cave]
       </div>
     </MDBFooter>
+    </div>
   );
 }

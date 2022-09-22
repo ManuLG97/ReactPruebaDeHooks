@@ -2,11 +2,18 @@
 
 body {
     font-family: 'Merriweather', serif;
-    font-size:40px;
+    font-size:20px;
+ 
  
 }
 
+
 .imgportadapeli {
+  height: 400px; width: 250px;
+}
+
+
+.imgportadaserie {
   height: 400px; width: 250px;
 }
 

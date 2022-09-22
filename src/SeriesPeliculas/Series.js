@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CobraKai from '../img/cobrakai.jpg';
+import lacasadeldragon from '../img/lacasadeldragon.jpeg';
+import JuegoDeTronos from '../img/juegodetronos.jpg';
+import JuegoDelCalamar from '../img/juegodelcalamar.jpeg';
+import BreakingBad from '../img/breakingbad.jpg';
 import './PeliculasSeries.css';
 
 function Series() {
@@ -20,25 +24,36 @@ function Series() {
       }
     
 return (
-    <div>
-    
-         <br/>    
-         <div class="container p-3 my-3 border">
+    <div> 
+         <div class="container border rounded bg-light p-4 my-5">
   <div class="row">
-    <div class="col">
-    <img src={CobraKai} alt="Serie de cobra kai" />
+    <div class="col titulopelicula">
+    <img class="imgportadaserie" src={CobraKai} alt="Serie de cobra kai" />
+    <p>Cobra Kai</p>
     </div>
-    <div class="col">
-     EL JUEGO DEL CALAMAR
-         </div>
-    <div class="col">
-      STRANGER THINGS
+    <div class="col titulopelicula">
+    <img class="imgportadaserie" src={lacasadeldragon} alt="Serie de cobra kai" />
+    <p>La Casa Del Dragon</p>
+    </div>
+    <div class="col titulopelicula">
+    <img class="imgportadaserie" src={BreakingBad} alt="Serie de cobra kai" />
+    <p>Breaking Bad</p>
+    </div>
+    <div class="row">
+    <div class="col titulopelicula">
+    <img class="imgportadaserie" src={JuegoDelCalamar} alt="Serie de cobra kai" />
+    <p>Juego Del Calamar</p>
+    </div>
+    <div class="col titulopelicula">
+    <img class="imgportadaserie" src={JuegoDeTronos} alt="Serie de cobra kai" />
+    <p>Juego De Tronos</p>
+    </div>
     </div>
   </div>
 
 
-
-
+  
+  
 
 
 </div>  

@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Merriweather:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Merriweather:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {color:black; font-family: 'Rubik', sans-serif;  font-size:20px;}
 
 body {
-    font-family: 'Merriweather', serif;
-    font-size:40px;
-   
-}
+  font-family: 'Rubik', sans-serif
+    }
 .imgportada {
-    height: 450px; width: 350px;
+    height: 450px; width: 450px;
   }
+
   #visor{width:800px; height:600px; margin:0 auto;}
+
   #botones{width:500px; height:60px;  margin:0 auto; text-align: center;justify-content: center;}
+
   #cajamarcador{width:500px; height:60px;  margin:0 auto; font-size: 4em;}
+
   .separador{clear:both;}
+
   img {width:800px; height:600px;}
+
   .imgflecha {width:60px; height:40px;}
+
+  .titulopelicula {
+    text-align: center;
+  }
 
 
 *{
