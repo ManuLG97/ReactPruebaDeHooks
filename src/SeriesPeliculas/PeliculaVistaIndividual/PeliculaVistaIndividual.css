@@ -11,7 +11,9 @@ body {
     height: 450px; width: 450px;
   }
 
-  #visor{width:800px; height:600px; margin:0 auto;}
+
+  #visor
+  {width:800px; height:600px; margin:0 auto;}
 
   #botones{width:500px; height:60px;  margin:0 auto; text-align: center;justify-content: center;}
 

@@ -9,7 +9,14 @@ import './PeliculasSeries.css';
 import PeliculaVistaIndividual from './PeliculaVistaIndividual/PeliculaVistaIndividual';
 import CinderellaMan from '../img/CinderellaManElhombre.jpg';
 
+import useHover from "@react-hook/hover";
+import { styles } from "@dash-ui/styles";
+
+
+
 function Peliculas() {
+
+
       
   const navigate = useNavigate();
 
@@ -26,9 +33,13 @@ function Peliculas() {
             replace: true
         });
       }
+
+
     
 return (   
 <div >
+
+
      <div class="container border rounded bg-light p-4 my-5">
   <div class="row">
   <div class="col titulopelicula"> 
@@ -60,7 +71,12 @@ return (
 </div>
 </div>
 </div>
+
   );
+  
 }
+
+
+
 
 export default Peliculas;

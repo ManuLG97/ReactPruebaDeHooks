@@ -67,8 +67,8 @@ export default function Footer() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2022 Copyright [Proyecto: TheMovieBat-Cave]
+      <div className='text-right p-4 bg-color-gray' >
+        © 2022 Copyright [StartFilm]
       </div>
     </MDBFooter>
     </div>

@@ -4,22 +4,33 @@ body {
     font-family: 'Merriweather', serif;
     font-size:20px;
  
- 
 }
+
 
 
 .imgportadapeli {
-  height: 400px; width: 250px;
+  height: 400px; width: 250px; margin-bottom: 20px;
 }
+
+.imgportadapeli:hover {
+  box-shadow: 3px 3px rgb(87, 85, 85);  
+}
+
 
 
 .imgportadaserie {
   height: 400px; width: 250px;
 }
 
+.imgportadaserie:hover {
+  box-shadow: 3px 3px gray;  
+}
+
+
 .imgdelapelicula {
   height: 400px; width: 425px;
 }
+
 
 img {
     height: 400px; width: 250px;
