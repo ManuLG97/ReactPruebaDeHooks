@@ -28,7 +28,8 @@ import Creed from '../img/creed.jpg';
 import ElCamino from '../img/elcamino.jpg';
 import TadeoJones3 from '../img/TadeoJones3.jpg';
 import ViajeAlParaiso from '../img/Viajealparaiso.jpg';
-
+import useHover from "@react-hook/hover";
+import { styles } from "@dash-ui/styles";
 
 
 

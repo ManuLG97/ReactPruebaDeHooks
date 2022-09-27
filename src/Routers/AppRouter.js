@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../Footer/Footer.js';
 import Header from '../Header/Header.js';
-
 import Home from '../Home/Home.js';
 import Series from '../SeriesPeliculas/Series'
 import Peliculas from '../SeriesPeliculas/Peliculas'
 import PeliculaVistaIndividual from '../SeriesPeliculas/PeliculaVistaIndividual/PeliculaVistaIndividual'
+import AboutUs from '../AboutUs/AboutUs';
 
 //Los routers son el mecanísmo del código que irá haciendo el cambio de los componentes, la redirección de los path por decirlo de alguna manera.
 
@@ -21,6 +21,7 @@ export const AppRouter = () => {
             <Route path="/Series" element={<Series />} />
             <Route path="/Peliculas" element={<Peliculas />} />  
             <Route path="/PeliculaVistaIndividual" element={<PeliculaVistaIndividual />} />  
+            <Route path="/AboutUs" element={<AboutUs />} />  
                
             </Routes>
 

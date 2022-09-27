@@ -13,7 +13,7 @@ body {
 }
 
 .imgportadapeli:hover {
-  box-shadow: 3px 3px rgb(87, 85, 85);  
+  box-shadow: 3px 3px rgb(87, 85, 85); cursor: pointer;
 }
 
 
@@ -23,7 +23,7 @@ body {
 }
 
 .imgportadaserie:hover {
-  box-shadow: 3px 3px gray;  
+  box-shadow: 3px 3px rgb(87, 85, 85);  cursor: pointer;
 }
 
 

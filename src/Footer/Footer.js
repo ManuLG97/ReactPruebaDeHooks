@@ -1,13 +1,27 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import './Footer.css'
+import { useNavigate } from 'react-router-dom';
+import AboutUs from '../AboutUs/AboutUs'
+
 export default function Footer() {
+
+  const navigate = useNavigate();
+
+  const GoToAboutUs = () => {
+      navigate('/AboutUs', {
+          replace: true
+      });
+    }
+
+
+
   return (
     <div className="main">
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-         <center><b><span><MDBIcon icon="users" className="me-2" />About us</span></b></center>
+         <center><b><MDBIcon icon="users" className="me-2"  onClick={GoToAboutUs} /><a onClick={GoToAboutUs}> About us</a></b></center>
         </div>
                 <div>
           <a href='https://es-es.facebook.com/' className='me-4 text-reset'>
@@ -22,50 +36,6 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5'>
-          <MDBRow className='mt-3'>
-            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="info" className="me-3" />
-                TM-BC
-              </h6>
-              <p>
-                A continuación dejamos nuestros enlaces de contacto por linkedin y github!
-              </p>
-            </MDBCol>
-
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'><MDBIcon fas icon="external-link-square-alt" className="me-2"/>Manuel López</h6>
-            <p>
-                <a href='https://github.com/ManuLG97' className='text-reset'><MDBIcon fab icon="github" className="me-2"/>
-                  Github
-                </a>
-              </p>
-              <p>
-                <a href='https://www.linkedin.com/in/manuell%C3%B3pezgonz%C3%A1lez/' className='text-reset'><MDBIcon fab icon="linkedin" className="me-2" />
-                  Linkedin
-                </a>
-              </p>
-            </MDBCol>
-
-            <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'><MDBIcon fas icon="external-link-square-alt" className="me-2"/>Andy Sarmiento</h6>
-            <p>
-                <a href='https://github.com/gandyrst' className='text-reset'><MDBIcon fab icon="github" className="me-2"/>
-                  Github
-                </a>
-              </p>
-              <p>
-                <a href='https://www.linkedin.com/in/andysarsan-developer/' className='text-reset'><MDBIcon fab icon="linkedin" className="me-2" />
-                  Linkedin
-                </a>
-              </p>
-            </MDBCol>
-
-          </MDBRow>
-        </MDBContainer>
-      </section>
 
       <div className='text-right p-4 bg-color-gray' >
         © 2022 Copyright [StartFilm]
