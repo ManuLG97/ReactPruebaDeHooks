@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-
+import Logo from '../img/Untitled.jpg';
 
 import useHover from "@react-hook/hover";
 import { styles } from "@dash-ui/styles";
@@ -22,9 +22,9 @@ return (
     <div className="mainaboutus">
     <MDBContainer bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
-        
-        </div>
+      <div className='me-5 d-none d-lg-block'>
+      <img src={Logo} class="imglogo" alt="LogoRockyBalboa"/>
+      </div>
                 <div>
           <a href='https://es-es.facebook.com/' className='me-4 text-reset'>
             <MDBIcon fab icon="facebook-f" />
